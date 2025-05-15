@@ -5,7 +5,10 @@ const AboutUs = () => {
     return (
         <>
             <NavBar />
-            <h1>About Us</h1>
+            <div className="hp-cont">
+                <h1>Chi siamo</h1>
+                <p>Siamo semplici e umili venditori. I nostri artigiani sono dei puri maestri del creato. Ogni giorno creano eccellenti prodotti di inestimabile qualità e valore. Chiaramente per voi alla modica cifra di 20€.</p>
+            </div>
         </>
     )
 }

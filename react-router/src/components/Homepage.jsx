@@ -5,7 +5,10 @@ const Homepage = () => {
     return (
         <>
             <NavBar />
-            <h1>Home Page</h1>
+            <div className="hp-cont">
+                <h1>HomePage</h1>
+                <p>Benvenuto nel nostro umile negozio! Scopri i nostri prodotti e trova ciò che fa per te.</p>
+            </div>
         </>
     )
 }
