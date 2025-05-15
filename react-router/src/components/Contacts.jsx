@@ -1,13 +1,13 @@
 import React from 'react'
 import NavBar from './NavBar';
 
-const Products = () => {
+const Contacts = () => {
     return (
         <>
             <NavBar />
-            <h1>Products</h1>
+            <h1>Contacts</h1>
         </>
     )
 }
 
-export default Products
+export default Contacts
