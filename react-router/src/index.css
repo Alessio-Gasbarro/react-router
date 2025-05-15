@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*NAVBAR*/
+nav {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  Padding: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+}
+
+.custom-link {
+  text-decoration: none;
+  color: palevioletred;
+  font-weight: 700;
+}
+
+.custom-link-active {
+  font-weight: 800;
+  color: rgb(183, 77, 112);
+  border-bottom: 4px solid palevioletred;
+}
