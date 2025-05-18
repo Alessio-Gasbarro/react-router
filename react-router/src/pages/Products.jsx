@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from './NavBar'
+import NavBar from '../components/NavBar'
 import { NavLink } from 'react-router-dom'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
