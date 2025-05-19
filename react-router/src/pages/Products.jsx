@@ -26,7 +26,6 @@ const Products = () => {
     return (
         <>
             <NavBar />
-
             <div className='products'>
                 {products.map((product) => {
                     return (
